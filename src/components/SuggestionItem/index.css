@@ -1,3 +1,16 @@
 .para {
-  color: red;
+  list-style-type: none;
+  font-style: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+}
+.searchList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+}
+.arrow {
+  height: 20px;
 }
