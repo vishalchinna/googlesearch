@@ -8,15 +8,15 @@ const SuggestionItem = props => {
     selectingList(suggestion)
   }
   return (
-    <div className="searchList">
-      <li className="para">{suggestion}</li>
+    <li className="searchList">
+      <p className="para">{suggestion}</p>
       <img
         src="https://assets.ccbp.in/frontend/react-js/diagonal-arrow-left-up.png"
         alt="arrow"
         className="arrow"
         onClick={selectTheItem}
       />
-    </div>
+    </li>
   )
 }
 
